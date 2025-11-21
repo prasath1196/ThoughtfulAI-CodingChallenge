@@ -35,3 +35,8 @@ python -m pytest src/test.py
 streamlit run src/ui.py
 ```
 
+Streamlit URL
+```
+https://thoughtfulai-codingchallenge-prasath.streamlit.app/
+```
+
