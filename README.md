@@ -9,6 +9,12 @@
 
 ## How to run the program
 
+- Install the required packages by running the following command:
+
+```bash
+pip install -r requirements.txt
+```
+
 -  Run the program by running the following command:
 
 ```bash
