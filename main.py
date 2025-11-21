@@ -1,4 +1,4 @@
-from package_sorter import PackageSorter
+from src.package_sorter import PackageSorter
 
 
 def __main__(): 

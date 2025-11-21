@@ -24,7 +24,7 @@ python main.py
 -  Run the tests by running the following command:
 
 ```bash
-python -m pytest test.py
+python -m pytest src/test.py
 ```
 
 - Change inputs in input.txt to test different cases

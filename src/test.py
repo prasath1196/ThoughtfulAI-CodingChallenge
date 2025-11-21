@@ -1,4 +1,4 @@
-from package_sorter import PackageSorter
+from src.package_sorter import PackageSorter
 
 def test_sort():
     sorter = PackageSorter()
