@@ -1,12 +1,16 @@
 from src.package_sorter import PackageSorter
+from src.ui import run_ui
 
-
-def __main__(): 
+def main(): 
     read_input = open("input.txt", "r") 
     for line in read_input:
-        width, height, length, mass = map(float, line.split())
+        try:
+            width, height, length, mass = map(float, line.split())
+        except:
+            print("INVALID_INPUT")
+            continue
         sorter = PackageSorter()
         print(sorter.sort(width, height, length, mass))
 
 if __name__ == "__main__":
-    __main__()
+    main()
