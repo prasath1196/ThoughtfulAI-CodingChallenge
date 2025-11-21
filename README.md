@@ -28,4 +28,10 @@ python -m pytest src/test.py
 ```
 
 - Change inputs in input.txt to test different cases
-    
+
+- Testing from UI
+
+```bash
+streamlit run src/ui.py
+```
+
